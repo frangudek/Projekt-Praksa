@@ -2,7 +2,7 @@
  Facial Expression Recognition - this project uses Flask framework to deploy fast.ai model 
 
 # Requirements 
-
+It is preferable to create a virtual environment <br />
 Fast.ai library https://docs.fast.ai/install.html <br />
 Dlib https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/ <br />
 Numpy <br />
@@ -16,4 +16,4 @@ Flask <br />
 
 
 # Change when run on your device 
-Path to .pkl file in camera.py and haarcascade_frontalface_default.xml has to be in working directory
+Path to .pkl file in camera.py and haarcascade_frontalface_default.xml has to be in working directory <br />
