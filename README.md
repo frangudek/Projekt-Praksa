@@ -12,6 +12,7 @@ OpenCV <br />
 Pandas <br />
 Argparse <br />
 Python <br />
+Flask <br />
 
 
 # Change when run on your device 
