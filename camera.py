@@ -18,7 +18,7 @@ ap.add_argument("--no-savedata", dest="savedata", action = "store_false")
 ap.set_defaults(savedata = False)
 args = vars(ap.parse_args())
 
-path = "//Praksa//FacialExpressionRecognitionProject//website//model"
+path = "/Users/frang/OneDrive/Dokumenti/GitHub/Projekt-Praksa/website/model/"
 learn = load_learner(path,'export.pkl')
 
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
@@ -27,7 +27,6 @@ data = []
 
 EYE_AR_THRESH = 0.20
 EYE_AR_CONSEC_FRAMES = 10
-
 
 
 
@@ -48,7 +47,7 @@ def data_time(time_value, prediction, probability, ear):
     return time_value
 
 
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 
 (lStart, lEnd) = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"]
 (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
