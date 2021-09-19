@@ -9,7 +9,8 @@ You can find requirements-win.txt for windows and for macOS in requirements-win.
 # Change when run on your device 
 Path to .pkl file in camera.py and haarcascade_frontalface_default.xml and shape_predictor_68_face_landmarks.dat has to be in working directory or provide full path for this files. <br />
 
-# Images - there are 4 recognizable sentiments (Happy, sad, neutral and surprised)
+# Images 
+There are 4 recognizable sentiments (Happy, sad, neutral and surprised). <br />
 
 ![happy](https://user-images.githubusercontent.com/90222667/133932217-05394630-83f2-44cb-ad24-163435dfa719.png) <br />
 
