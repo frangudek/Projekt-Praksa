@@ -4,7 +4,7 @@ Facial Expression Recognition - this project uses Flask framework to deploy fast
 # Requirements 
 It is preferable to create a virtual environment <br />
 
-You can find requirements-win.txt for windows and for macOS in requirements-win.txt for pip and environment.yml file for conda. <br />
+You can find requirements-win.txt for windows and for macOS in requirements.txt for pip and environment.yml file for conda. <br />
 
 # Change when run on your device 
 Path to .pkl file in camera.py and haarcascade_frontalface_default.xml and shape_predictor_68_face_landmarks.dat has to be in working directory or provide full path for this files. <br />
